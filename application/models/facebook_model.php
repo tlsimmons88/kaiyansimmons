@@ -68,6 +68,8 @@ class facebook_model extends CI_Model
 
 		//Create Session
 		$this->session->set_userdata('facebook_data', $this->facebook_data);
+		
+		return $this->facebook_data;
 	}
 
 	//Log out of facebook and destory session var
