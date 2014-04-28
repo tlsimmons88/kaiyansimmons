@@ -1,0 +1,163 @@
+[27-Dec-2013 20:00:24 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 2
+[27-Dec-2013 20:03:44 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 2
+[27-Dec-2013 20:05:36 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:07:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:08:21 UTC] PHP Fatal error:  require_once(): Failed opening required '/commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:08:31 UTC] PHP Fatal error:  require_once(): Failed opening required '../commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:08:32 UTC] PHP Fatal error:  require_once(): Failed opening required '../commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:08:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/../commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 20:09:07 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 11
+[27-Dec-2013 20:56:14 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 21:00:17 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 21:00:26 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 21:18:01 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 22:21:27 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[27-Dec-2013 22:24:38 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 3
+[27-Dec-2013 22:38:41 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 3
+[28-Dec-2013 02:20:45 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 3
+[30-Dec-2013 15:22:39 UTC] PHP Fatal error:  Class 'DefaultWebPage' not found in /home/tlsimmons88/public_html/application/views/index.php on line 3
+[30-Dec-2013 15:54:05 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[30-Dec-2013 15:56:09 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[30-Dec-2013 15:56:10 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[30-Dec-2013 15:56:11 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[30-Dec-2013 15:56:13 UTC] PHP Fatal error:  Class 'WebPage' not found in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 8
+[30-Dec-2013 15:57:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 7
+[30-Dec-2013 15:58:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'application//commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 7
+[30-Dec-2013 15:59:22 UTC] PHP Fatal error:  Class 'CommonUI' not found in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 2
+[30-Dec-2013 19:28:27 UTC] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 24
+[30-Dec-2013 19:46:00 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 34
+[30-Dec-2013 19:46:38 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 34
+[30-Dec-2013 19:46:39 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 34
+[30-Dec-2013 19:46:40 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 34
+[30-Dec-2013 19:59:34 UTC] PHP Fatal error:  Call to undefined function img() in /home/tlsimmons88/public_html/application/views/commonui/WebPage.class.php on line 22
+[30-Dec-2013 20:55:23 UTC] PHP Fatal error:  require_once(): Failed opening required '/commonui/WebPage.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tlsimmons88/public_html/application/views/include/DefaultWebPage.class.php on line 7
+[28-Jan-2014 14:23:47 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:24:24 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:24:26 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:24:43 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:24:44 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:25:15 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:25:16 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 14:25:24 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[28-Jan-2014 23:23:02 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:23:02 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:26:08 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:26:08 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:31:48 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:31:48 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:35 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:35 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:35 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:38 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:38 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:38 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:42 UTC] CSRF state token does not match one provided.
+[28-Jan-2014 23:32:42 UTC] CSRF state token does not match one provided.
+[29-Jan-2014 22:50:38 UTC] CSRF state token does not match one provided.
+[29-Jan-2014 22:50:40 UTC] CSRF state token does not match one provided.
+[29-Jan-2014 22:50:40 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:37:39 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:37:41 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:37:41 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:53:48 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:53:48 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:53:48 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:54:08 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:54:09 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:54:09 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:59:02 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:59:02 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 13:59:02 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:02:40 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:02:41 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:03:51 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:03:51 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:04:17 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:04:17 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:04:17 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:06:01 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:06:01 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:06:47 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:06:48 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:06:48 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:08:37 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:08:37 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:08:37 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:23 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:23 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:23 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:39 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:39 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:09:39 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:10:29 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:10:29 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:13:12 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:13:12 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:13:42 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:13:42 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:17:28 UTC] CSRF state token does not match one provided.
+[31-Jan-2014 14:17:28 UTC] CSRF state token does not match one provided.
+[03-Feb-2014 13:40:40 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:43:52 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:43:53 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:43:54 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:46:59 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 43
+[03-Feb-2014 13:50:43 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 44
+[03-Feb-2014 13:51:10 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 44
+[03-Feb-2014 13:51:12 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 44
+[03-Feb-2014 13:51:13 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 44
+[03-Feb-2014 13:52:43 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:06 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:07 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:07 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:07 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:07 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:07 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:28 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:53:29 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 13:57:09 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 26
+[03-Feb-2014 14:04:17 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 14:04:19 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 14:04:19 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 13
+[03-Feb-2014 14:04:39 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 26
+[03-Feb-2014 14:04:41 UTC] PHP Fatal error:  Call to a member function facebookLogout() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 26
+[03-Feb-2014 14:05:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 15
+[03-Feb-2014 14:06:35 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:06:39 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:37 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:38 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:38 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:38 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:38 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:07:38 UTC] PHP Fatal error:  Call to a member function facebookLogin() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 14
+[03-Feb-2014 14:30:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tlsimmons88/public_html/application/views/index.php on line 14
+[25-Feb-2014 02:38:16 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 03:55:47 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 03:57:21 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 03:57:22 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 03:58:37 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 03:58:38 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 04:10:12 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 04:10:26 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 05:31:01 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 50
+[02-Mar-2014 05:33:09 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 50
+[02-Mar-2014 05:33:11 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 50
+[02-Mar-2014 05:36:18 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/tlsimmons88/public_html/application/controllers/NewsController.php on line 50
+[02-Mar-2014 05:57:45 UTC] PHP Fatal error:  Call to undefined method facebook_model::getUser() in /home/tlsimmons88/public_html/application/models/facebook_model.php on line 63
+[02-Mar-2014 19:17:38 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:18:47 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:19:24 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:20:09 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:24:21 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:31:00 UTC] CSRF state token does not match one provided.
+[02-Mar-2014 19:31:00 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:11 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:20 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:20 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:29 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:29 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:31 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:31 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:33 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 02:26:33 UTC] CSRF state token does not match one provided.
+[24-Apr-2014 16:11:05 UTC] CSRF state token does not match one provided.

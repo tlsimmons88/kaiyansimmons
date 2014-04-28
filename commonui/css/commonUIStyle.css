@@ -1,0 +1,758 @@
+/*----------------------------------------------------------------
+
+         Common UI styles
+
+-----------------------------------------------------------------*/
+
+body {
+   margin:0;
+   background-color: #333;
+   font:11px Verdana,Arial,Helvetica,sans-serif;
+}
+
+table {
+
+}
+
+h3 {
+   font-size:15px;
+   margin:0;
+   padding:10px 0px 5px 0px;
+}
+
+/*-------------------------------------
+            General Styles
+--------------------------------------*/
+.app-container {}
+
+.header-container {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1;
+    min-width: 680px;
+    height: auto !important;
+    height: 1%;
+}
+
+.header-container a,
+.header-container a:link,
+.header-container a:visited {
+    text-decoration: underline;
+}
+
+.header-container a:hover {
+    text-decoration: none;
+}
+
+.clear-fix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+/*-------------------------------------
+            General Styles
+--------------------------------------*/
+/*------------------------------------
+        Admin Header
+------------------------------------*/
+.logo-header-container {
+    background-color: #333;
+    height: 34px;
+}
+
+.logo-header-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.gd-logo {
+  float: left;
+  margin: 1px 23px 0 75px;
+  width: 83px;
+  height: 30px;
+  display: inline;
+  background-image: url(img/gd-new-header-logo.png);
+}
+
+.logo-header-container a,
+.logo-header-container a:link,
+.logo-header-container a:visited,
+.menu-header a,
+.menu-header a:link,
+.menu-header a:visited {
+    color: #a9caf3;
+}
+
+.app-logo {
+  height: 26px;
+  float: left;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+
+}
+
+.app-name {
+  text-decoration:none;
+  float: left;
+  height:26px;
+  padding-top:7px;
+}
+
+.app-name a,
+.app-name a:link,
+.app-name a:visited{
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: arial;
+  font-size:16px;
+  color:#fff;
+}
+
+.menu-divider {
+  height:2px;
+  background-color: #FF9100;
+}
+
+.menu-header {
+    background-color: #1C86EE;
+    height: 43px;
+    font-size: 11px;
+    color: #ffffff;
+    min-width: 680px;
+}
+
+.footer {
+    background-color: #333;
+    height: 36px;
+    color: #ffffff;
+    text-align:center;
+    font-family:arial;
+    font-size:10px;
+    padding-top:10px;
+}
+
+.admin-header h1 {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: arial, verdana, Helvetica, sans-serif;
+    padding: 15px 0 0 20px;
+    color: #fbab1e;
+}
+
+.top-bar {
+    float: right;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 10px 10px 0 0;
+}
+
+.top-bar p {
+    float: left;
+    margin-left: 25px;
+    display: inline;
+}
+
+/*-------------------------------------
+  Login and New Features and feedback
+--------------------------------------*/
+
+.right-content {
+/*    float: right; */
+    padding: 8px 0px 0px 0;
+    text-align: right;
+}
+
+.right-content p {
+    padding: 0px 10px 7px 0px;
+    margin: 0;
+}
+
+.right-content span {
+  padding-left: 20px;
+}
+
+.right-content img {
+    vertical-align: middle;
+}
+
+/*-------------------------------------
+  Login and New Features and feedback
+--------------------------------------*/
+
+
+/*-------------------------------------
+            Tabs Styles
+--------------------------------------*/
+
+.tabs {
+    float: left;
+    width: auto;
+    margin-top: -43px;
+}
+
+.tabs-gone {
+  display: none;
+}
+
+.tabs ul{
+    margin:0 0 0 75px;
+    display: inline;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    height: 45px;
+    float: left;
+}
+
+.tabs li {
+    margin: 0px 0px 0px 1px;
+    padding: 0px 10px 0px 0px;
+    float: left;
+    position: relative;
+}
+
+.tabs li.tabspacer{
+    margin: 0px 15px 0px 1px;
+    padding: 0px 10px 0px 0px;
+    float: left;
+    position: relative;
+}
+
+.tabs li.activelink {
+    background-color: #5CACEE;
+}
+
+.tabs li span {
+    display: block;
+    float: left;
+    padding: 14px 3px 0px 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    min-height: 28px;
+    height:28px;
+    outline: none;
+    color: #fff;
+}
+
+.tabs li.activelink span{
+    color: #fff;
+}
+
+.tabs li:hover,
+.tabs li.sfhover {
+	background-color: #5CACEE;
+    cursor: pointer;
+}
+
+.tabs ul li:hover span,
+.tabs ul li.sfhover span {
+    color: #fff;
+}
+
+.tabs li.activelink:hover {
+}
+
+.tabs li.activelink:hover span {
+}
+
+/*-------------------------------------
+            Tabs Styles
+--------------------------------------*/
+
+.menu-area {
+    clear: both;
+}
+
+.header-container ul.nav:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+.integrated-menu {
+    float: left;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+}
+
+.integrated-menu ul{
+    margin:0px;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    height: 27px;
+    float: left; /*afterthought*/
+}
+
+.integrated-menu ul li {
+    cursor:pointer;
+    float: left;
+    position: relative;
+    background-image: url(img/menu-side-borders.gif);
+    background-repeat: no-repeat;
+    background-position: right 6px;
+    vertical-align: middle;
+}
+
+.integrated-menu ul li.last {
+    background-image: none;
+}
+
+.integrated-menu ul li.activelink {
+    background-repeat: no-repeat;
+}
+
+.integrated-menu ul li.activelink ul li span{
+    background-repeat: no-repeat;
+    font-weight: normal !important;
+
+}
+
+.integrated-menu ul li span,
+.integrated-menu ul li span:hover {
+    display: block;
+    padding: 7px 15px 9px;
+    color: #000;
+    text-decoration: none;
+}
+
+.integrated-menu ul li span img {
+    border: none;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0px;
+    padding-left: 2px;
+}
+
+.integrated-menu ul li span input,
+.integrated-menu ul li span:hover img {
+    border: none;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0px;
+    padding-left: 2px;
+}
+
+.integrated-menu ul li ul {
+    position: absolute;
+    left: -999em;
+    border-right: 1px solid #c9c9c9;
+    width: 172px;
+    margin:  0;
+    height: auto !important;
+    height: 1%;
+    padding: 0;
+    min-width: 0;
+    float: none;
+    background-color: #ffffff;
+}
+
+.integrated-menu ul li ul li {
+    background-image: none;
+    border-bottom: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: block;
+    height: 1%;
+}
+
+.integrated-menu ul li ul li span {
+    height: auto !important;
+    text-align: left;
+    display: block;
+    background-image: none !important;
+    padding: 5px 6px 5px 10px;
+    width: 155px;
+    background-color: #ffffff;
+    border-bottom: 1px dashed #c9c9c9 !important;
+    border-left: 1px solid #c9c9c9 !important;
+    min-height: 0;
+    white-space: normal;
+    line-height: 17px;
+}
+
+.integrated-menu ul li ul li.last-nav-item span {
+    border-bottom: 1px solid #c9c9c9 !important;
+}
+
+.integrated-menu ul li ul li.first-nav-item {
+    /*border-top: 1px solid #c9c9c9;*/
+}
+
+.integrated-menu ul li ul li span:hover {
+    background-color: #f5f5f5 !important;
+    padding: 5px 6px 5px 10px;
+}
+
+.integrated-menu ul li:hover ul,
+.integrated-menu ul li.sfhover ul {
+    left: auto;
+}
+
+.integrated-menu ul li ul li:hover,
+.integrated-menu ul li ul li.sfhover {
+    border-bottom: none;
+}
+
+/*---------------------------
+    End nav drop downs
+----------------------------*/
+
+.menu-gradient {
+    background-image: url(img/menu-gradient.gif);
+    background-repeat: repeat-x;
+    height: 4px;
+    width: auto;
+    font-size: 0px;
+    line-height: 0;
+}
+
+* html .menu-gradient {
+    margin-top: -3px;
+}
+
+.right-menu {
+  float: right;
+  padding-right: 10px;
+}
+
+.right-menu-text-size {
+  float: right;
+  overflow: hidden;
+  height: 27px;
+  line-height: 27px;
+  margin-right: 9px;
+}
+
+.right-menu-button-container {
+  text-align: right;
+  font-size: 7px;
+  line-height: 0px;
+  padding-top: 3px;
+}
+
+.right-menu-button a img,
+.right-menu-button a:link img,
+.right-menu-button a:visited img {
+    border: none;
+}
+
+.right-menu-button {
+    float: left;
+    margin-left: 10px;
+}
+
+/*------------------------------
+    Select box fix
+------------------------------*/
+
+* html ul.nav iframe {
+    display: block;
+    position: absolute;
+    /* account for the border */
+    left: -0.25em;
+    top: -0.25em;
+    z-index: 0;
+    margin-left: 3px;
+}
+
+select.hide { visibility: hidden; }
+
+.version {
+    font-family:arial;
+	float: left;
+    color: #fff;
+    line-height: 34px;
+    font-size: 8pt;
+}
+
+.tabs li {
+}
+
+.tabs li.activelink {
+
+}
+
+.tabs li span {
+
+}
+
+.tabs li.activelink span {
+
+}
+
+#spinner {
+   border:1px solid #eeeeee;
+   text-align:center;
+   padding:10px;
+   margin-bottom:5px;
+}
+
+.button {
+   font-size: 10px;
+   font-weight: bold;
+   color: #ffffff;
+   background-image: url(img/black-button-bg.gif);
+   background-repeat: repeat;
+   text-align: center;
+   text-decoration: none;
+   border: 1px solid #000000;
+   padding: 1px 10px 2px;
+   font-family: Verdana;
+   width: auto;
+   overflow: visible;
+   cursor: pointer;
+   -moz-border-radius: 4px;
+}
+
+.smallbutton {
+   font-size: 9px;
+   font-weight: bold;
+   color: #ffffff;
+   background-image: url(img/black-button-bg.gif);
+   background-repeat: repeat;
+   text-align: center;
+   text-decoration: none;
+   border: 1px solid #000000;
+   padding: 1px 4px 1px;
+   font-family: Verdana;
+   width: auto;
+   overflow: visible;
+   cursor: pointer;
+   -moz-border-radius: 4px;
+}
+
+hr {
+   color:#cccccc;
+   border-style:solid;
+   height:1px;
+}
+/*
+input, textarea {
+   font:normal 11px Helvetica,sans-serif;
+   padding:2px 2px 2px 2px;
+}
+
+select {
+   font:normal 11px Helvetica,sans-serif;
+   padding:2px 2px 2px 2px;
+   border:1px solid #999999;
+}
+
+input[type="text"] {
+   font:normal 11px Helvetica,sans-serif;
+   padding:2px 2px 2px 2px;
+   border:1px solid #999999;
+}
+*/
+.link {
+ text-decoration:underline;
+ color:#0000EE;
+ cursor:pointer;
+}
+
+.error {
+   color:#ff0000;
+   text-align:center;
+}
+
+.vc {
+   text-align:center;
+}
+
+.vr {
+   text-align:right;
+}
+
+.h {
+   font-weight:bold;
+   background-color:#BED979;
+   vertical-align:bottom;
+   background-image: url(img/table-header-bg-g.gif);
+   background-repeat: repeat-x;
+}
+
+.h, .hg, .hb, th {
+   border-bottom:1px solid #cccccc;
+}
+
+.hb {
+   font-weight:bold;
+   background-color:#BFD3EB;
+   vertical-align:bottom;
+   background-image: url(img/table-header-bg-b.gif);
+   background-repeat: repeat-x;
+}
+
+.hg {
+   font-weight:bold;
+   height:20px;
+   background-color:#F5F5F5;
+   vertical-align:bottom;
+   background-image: url(img/table-header-bg.gif);
+   background-repeat: repeat-x;
+}
+
+.tr0 {
+   background-color:#F5F5F5;
+}
+
+.tr1 {
+   background-color:#ffffff;
+}
+
+.trh {
+   background-color:#316AC5;
+   color:#ffffff;
+}
+
+.tdr {  /* red cell bg */
+   background-color:red;
+}
+
+.tdo {  /* orange cell bg */
+   background-color:#CC9933;
+}
+
+.tdy {  /* yellow cell bg */
+   background-color:#CCCC33;
+}
+
+.tdb {  /* blue cell bg */
+   background-color:#AABAC4;
+}
+
+.tdg {  /* green cell bg */
+   background-color:#7CAE01;
+}
+
+.table_data {
+   border:1px solid #cccccc;
+   border-collapse: collapse;
+   width:100%;
+}
+
+.table_data td{
+   border-right:1px solid #cccccc;
+   border-bottom:1px solid #eeeeee;
+   padding:4px;
+}
+
+.noborder {
+   border:0px solid #ffffff;
+   border-collapse: collapse;
+   width:100%;
+}
+
+.noborder td{
+   border-right:0px solid #ffffff;
+   border-bottom:0px solid #ffffff;
+   padding:4px;
+}
+
+.sub_table_data {
+   display:none;
+   padding-left:15px;
+   width:98%;
+}
+
+#main_content {
+   color:#333333;
+   background-color:#ffffff;
+   font-family:arial;
+}
+
+.main_content_container {
+   background-color:#ffffff;
+   padding:6px;
+}
+
+.yellow_bg {
+   background-color:#FFB326;
+   -moz-border-radius: 8px;
+   color:#FFCF77;
+   font-size:40px;
+   font-weight:bold;
+   text-align:center;
+   width:50px;
+}
+
+.divider {
+   width:40px;
+}
+
+.portlet_data {
+   border:1px solid #cccccc;
+   border-collapse: collapse;
+   width:100%;
+}
+
+.portlet_data td{
+   border-right:1px solid #cccccc;
+   border-bottom:1px solid #eeeeee;
+   padding:4px;
+}
+
+.noborder {
+   border:0px solid #ffffff;
+   border-collapse: collapse;
+   width:100%;
+}
+
+.noborder td{
+   border-right:0px solid #ffffff;
+   border-bottom:0px solid #ffffff;
+   padding:4;
+}
+
+.portlet_data_header {
+   border-bottom:1px solid #cccccc;
+   text-align:center;
+   vertical-align:bottom;
+   font-size:14px;
+   background-color:#7CAE01;
+}
+
+.sub_data_header {
+   cursor:pointer;
+}
+
+.sub_data_header td{
+   border-right:0px;
+   border-bottom:1px dashed #cccccc;
+}
+
+.ptr {
+   cursor:pointer;
+}
+
+.outline {
+   border:1px dashed #cccccc;
+   padding:20px;
+}
+
+.input_title {
+   font-weight:bold;
+   text-align:right;
+}
+
+.subtitle {
+   font-weight:bold;
+   color:#FF9A35;
+   font-size:13px;
+}
