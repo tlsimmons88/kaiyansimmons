@@ -15,6 +15,8 @@ class NewsController extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		//We do this so facebook can get it's shit it needs.
+		parse_str( $_SERVER['QUERY_STRING'], $_REQUEST );
 
 		//Load jquery
 		//$this->load->library('javascript');

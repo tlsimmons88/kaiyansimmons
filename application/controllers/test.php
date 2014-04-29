@@ -1,38 +1,40 @@
 <?php
 /**
  * @property Facebook $facebook
+ * @property layout $layout
  */
-class Test extends CI_Controller
+class Test extends MY_Controller
 {
-	public function __construct()
-	{
-		parent::__construct();
-		parse_str( $_SERVER['QUERY_STRING'], $_REQUEST );
-	}
-
 	public function index()
 	{
 		//We don't need a facebook model. You already have that with the Library. 
 		//So Lets try to get a userID
-		$pageData = array();
 		if($userID = $this->facebook->getUser())
 		{
 			try
 			{
-				$pageData['userProfile'] = $this->facebook->api('/me' , 'GET');
+				$user = $this->facebook->api('/me' , 'GET');
+				$this->layout->set('user', $user);
+				$this->layout->set('loginoutLink', $this->facebook->getLogoutUrl(array('next'=>'http://travis.site.com/test/logout')));
 			}
 			catch(FacebookApiException $e)
 			{
-				$pageData['login_url'] = $this->facebook->getLoginUrl();
-				$pageData['login_error'] = $e->getMessage();
+				$this->layout->set('loginoutLink', $this->facebook->getLoginUrl());
+				$this->layout->set('loginError', $e->getMessage());
 			}
 		}
 		else
 		{
-			$pageData['login_url'] = $this->facebook->getLoginUrl();
+			$this->layout->set('loginoutLink', $this->facebook->getLoginUrl());
 		}
 		
 		
-		$this->load->view('test/index.phtml' , array('pageData'=>$pageData));
+		$this->layout->render();
+	}
+	
+	public function logout()
+	{
+		$this->facebook->destroySession();
+		redirect('/test/index');
 	}
 }
