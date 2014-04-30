@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kaiyansimmons.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.kaiyansimmons.com$ 
+RewriteCond %{REQUEST_URI} !webroot/
+RewriteRule (.*) /webroot/$1 [L]
