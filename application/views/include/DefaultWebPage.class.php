@@ -4,7 +4,7 @@
  * DESCRIPTION:  The default WebPage to set the initinal settings by extending the Webpage.class.php
  *
  */
-require_once 'commonui/WebPage.class.php';
+require_once 'WebPage.class.php';
 
 class DefaultWebPage extends WebPage
 {
@@ -15,10 +15,10 @@ class DefaultWebPage extends WebPage
 	private $title = "FMA::Family Memories App";
 	private $version = "1.0";
 	private $nav = array(
-		'News' => array('onClick' => "window.location = 'index.php/news';", 'applyTabSpacing' => false, 'active' => true),
-		'Images' => array('onClick' => "window.location = 'index.php/images';", 'applyTabSpacing' => false, 'active' => false),
-		'Videos' => array('onClick' => "window.location = 'index.php/videos';", 'applyTabSpacing' => false, 'active' => false),
-		'Admin' => array('onClick' => "window.location = 'index.php/admin';", 'applyTabSpacing' => false, 'active' => false)
+		'News' => array('onClick' => "window.location = '/news';", 'applyTabSpacing' => false, 'active' => true),
+		'Images' => array('onClick' => "window.location = '/images';", 'applyTabSpacing' => false, 'active' => false),
+		'Videos' => array('onClick' => "window.location = '/videos';", 'applyTabSpacing' => false, 'active' => false),
+		'Admin' => array('onClick' => "window.location = '/admin';", 'applyTabSpacing' => false, 'active' => false)
 	);
 	private $subNav = null;
 	private $activeNav = null;

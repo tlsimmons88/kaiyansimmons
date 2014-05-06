@@ -2,8 +2,8 @@
 class WebPage
 {
 	private $doctype = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
-	private $css = array('commonui/css/jquery-ui-1.10.4.custom.css','commonui/css/commonUIStyle.css');
-	private $js = array('commonui/js/jquery-1.10.2.js','commonui/js/jquery-ui-1.10.4.custom.js', 'commonui/js/site.js');
+	private $css = array('/css/jquery-ui-1.10.4.custom.css','/css/commonUIStyle.css');
+	private $js = array('/js/jquery-1.10.2.js','/js/jquery-ui-1.10.4.custom.js', '/js/site.js');
 	private $meta = "";
 	private $onload = "";
 	private $title = "";
@@ -171,12 +171,12 @@ class WebPage
 		?>
 		     </div>
 						</td>
-						<td background="commonui/images/portlet_body_right.jpg"></td>
+						<td background="/images/portlet_body_right.jpg"></td>
 					</tr>
 					<tr >
-						<td width="15" height="15"><img src="commonui/images/portlet_bottom_left.jpg" ></td>
-						<td align="center" background="commonui/images/portlet_bottom_bg.jpg"  height="15">&nbsp;</td>
-						<td width="15" height="15"><img src="commonui/images/portlet_bottom_right.jpg"></td>
+						<td width="15" height="15"><img src="/images/portlet_bottom_left.jpg" ></td>
+						<td align="center" background="/images/portlet_bottom_bg.jpg"  height="15">&nbsp;</td>
+						<td width="15" height="15"><img src="/images/portlet_bottom_right.jpg"></td>
 					</tr>
 			</table>
 			</div>
@@ -238,13 +238,13 @@ class WebPage
 		<div class="main_content_container">
 		<table width="100%" cellpadding="0" cellspacing="0" border="0">
 			<tr >
-				<td width="15" height="15"><img src="commonui/images/portlet_top_left.jpg"></td>
-				<td background="commonui/images/portlet_top_bg.jpg" height="15"></td>
-				<td  width="15" height="15"><img src="commonui/images/portlet_top_right.jpg"></td>
+				<td width="15" height="15"><img src="/images/portlet_top_left.jpg"></td>
+				<td background="/images/portlet_top_bg.jpg" height="15"></td>
+				<td  width="15" height="15"><img src="/images/portlet_top_right.jpg"></td>
 			</tr>
 			<tr >
-				<td background="commonui/images/portlet_body_left.jpg"> </td>
-				<td background="commonui/images/portlet_body_bg.jpg" valign="top">
+				<td background="/images/portlet_body_left.jpg"> </td>
+				<td background="/images/portlet_body_bg.jpg" valign="top">
 					<div id="main_content">
 <?
 	}
