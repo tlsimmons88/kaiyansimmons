@@ -38,13 +38,12 @@
 |
 */
 $route['logout/(:any)'] = "AuthenticationController/logout/$1";
-$route['login/(:any)'] = "AuthenticationController/login/$1";
 $route['news'] = "NewsController/index";
-$route['images'] = "ImagesController/index";
+$route['pictures'] = "PicturesController/index";
 $route['videos'] = "VideosController/index";
 $route['admin'] = "AdminController/index";
 $route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['404_override'] = 'ValidationController/index_404';
 
 
 /* End of file routes.php */

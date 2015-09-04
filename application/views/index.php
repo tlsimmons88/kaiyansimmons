@@ -4,31 +4,33 @@ $webpage = new DefaultWebPage();
 $webpage->setActiveNav("News");
 $topRightContent = "";
 $topRightLink = "";
+$html = "";
 
 if($fb_data['userProfile']['id'] > 0)
 {
 	$topRightContent .= "Welcome ".$fb_data['userProfile']['first_name'];
 	$topRightContent .= "<br>";
-	//$topRightContent .= "<a href='index.php/logout'> My Logout URL </a>";
-	//$topRightContent .= "<a href='".$fb_data['logoutUrl']."'>Logout</a>";
-	//$topRightContent .= $fb_data['logoutUrl'];
-	$topRightContent .= "<a href='index.php/logout/index'> My Logout URL </a>";
+	$topRightContent .= "<a href='logout/index'>Logout</a>";
+	if($fb_data['isFriend'])
+	{
+		$html .= "News Test";
+	}
+	else
+	{
+		//$html .= "You are not allowed to view this content.";
+	}
+
 }
 else
 {
 	$topRightContent .= "Welcome";
 	$topRightContent .= "<br>";
-	//$topRightContent .= "<a href='".$fb_data['loginUrl']."' class='login'>Login</a>";
-	//$topRightContent .= "<span onclick='init_login_dialog();' >My Login URL</span>";
-	//$topRightContent .= "<span id='facebook_login_url'>".$fb_data['loginUrl']."</span>";
-	//$topRightContent .= "<a href='index.php/login'> My Login URL </a>";
-	$topRightContent .= "<a href='index.php/login/index'> My Login URL </a>";
-
+	$topRightContent .= "<a href='".$fb_data['loginUrl']."'>Login</a>";
+	//$html .= "You must be logged in to view this page."; 
 }
 $webpage->setHeaderRightContent($topRightContent);
 $webpage->setHeaderRightLinks($topRightLink);
 $webpage->start();
-echo "News Test";
-$webpage->load_dialog_divs();
+echo $html;
 $webpage->end();
 ?>

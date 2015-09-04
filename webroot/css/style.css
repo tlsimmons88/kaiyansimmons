@@ -1,0 +1,58 @@
+/*CSS File for now common ui things for this site*/
+.inline {
+    display: inline-block;
+	display:inline; /* for IE */
+}
+#pictures_gallery{
+	border-style: dotted;
+    border-width: 1px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.thumb_container{
+	margin: 5px;
+}
+
+
+/*Files Uplaod CSS*/
+
+#upload-wrapper {
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	background: #F5F5F5;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #AAA;
+}
+#upload-wrapper h3 {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 20px 0px;
+	margin-top: -30px;
+	border-bottom: 1px dotted #DDD;
+}
+#upload-wrapper input[type=file] {
+	border: 1px solid #DDD;
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+#upload-wrapper #submit-btn {
+	border: none;
+	margin: 2px;
+	padding: 2px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}
+#output{
+	color: #33AD33;
+	padding: 5px;
+	font-size: 12px;
+}
+#output img {
+	border: 1px solid #DDD;
+	padding: 5px;
+}

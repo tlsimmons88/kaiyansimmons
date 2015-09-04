@@ -2,13 +2,13 @@
 class WebPage
 {
 	private $doctype = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
-	private $css = array('/css/jquery-ui-1.10.4.custom.css','/css/commonUIStyle.css');
-	private $js = array('/js/jquery-1.10.2.js','/js/jquery-ui-1.10.4.custom.js', '/js/site.js');
+	private $css = array('/css/jquery-ui-1.10.4.custom.css','/css/commonUIStyle.css', '/css/style.css', '/css/fancybox/jquery.fancybox.css?v=2.1.5', '/css/fancybox/jquery.fancybox-buttons.css?v=1.0.5', '/css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7');
+	private $js = array('/js/jquery-1.10.2.js','/js/jquery-ui-1.10.4.custom.js', '/js/site.js', '/js/fancybox/jquery.fancybox.js?v=2.1.5', '/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5', '/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7', '/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6', 'jquery.form.min.js' );
 	private $meta = "";
 	private $onload = "";
 	private $title = "";
 	private $baseAddress = "/";
-	private $version = '1';
+	private $version = null;
 	private $activeNav = "";
 	private $navBar = array();
 	private $subNavBar = array();
@@ -192,7 +192,7 @@ class WebPage
 		$str = "";
 
 		foreach( $this->css as $val )
-			$str .= "<link rel='stylesheet' type='text/css' href='" . $val . (strpos($val, 'http') === false ? '?ver=' . $this->version : '') . "' />\n";
+			$str .= "<link rel='stylesheet' type='text/css' href='" . $val . (strpos($val, 'http') === false ? $this->version : '') . "' />\n";
 
 		return $str;
 	}
@@ -202,7 +202,7 @@ class WebPage
 		$str = "";
 
 		foreach( $this->js as $val )
-			$str .= "<script type='text/javascript' src='" . $val . (strpos($val, 'http') === false ? '?ver=' . $this->version : '') . "' ></script>\n";
+			$str .= "<script type='text/javascript' src='" . $val . (strpos($val, 'http') === false ? $this->version : '') . "' ></script>\n";
 
 		return $str;
 	}
@@ -215,7 +215,6 @@ class WebPage
 			<div class="logo-header-container">
 			<div class="gd-logo"></div>
 			<div class="app-name"><a href="<?= $this->baseAddress ?>"><?= $this->applicationName ?></a></div></a>
-			<div class="version">v <?= $this->version ?></div>
 			<div class="top-bar">
 				<p>
 					<?= $this->headerRightLinks ?>
